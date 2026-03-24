@@ -3224,7 +3224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+		(property "Footprint" "ArduinoXIAO:MODULE_102010388"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -3610,7 +3610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 90.17 118.11 0)
 			(effects
 				(font
