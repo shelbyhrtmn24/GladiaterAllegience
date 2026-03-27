@@ -1760,7 +1760,7 @@
 	)
 	(no_connect
 		(at 165.1 64.77)
-		(uuid "bc75b644-0a11-44fa-a4d7-11544bed5fd7")
+		(uuid "81a718bd-8657-416f-856f-8f3f878f5e8a")
 	)
 	(no_connect
 		(at 104.14 69.85)
@@ -1968,6 +1968,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 43.18) (xy 146.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dc5176-b671-4fdc-bdbb-28742094fb0c")
+	)
+	(wire
+		(pts
 			(xy 165.1 82.55) (xy 167.64 82.55)
 		)
 		(stroke
@@ -2008,16 +2018,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 139.7 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02d1ddf-366c-4807-805c-1a64f589a075")
-	)
-	(wire
-		(pts
 			(xy 120.65 43.18) (xy 127 43.18)
 		)
 		(stroke
@@ -2035,16 +2035,6 @@
 			(justify left bottom)
 		)
 		(uuid "10abeb72-56e0-4da6-8117-3693d269a608")
-	)
-	(label "IRQ"
-		(at 146.05 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27cc8191-6074-4f64-a56b-2f0138d4ea89")
 	)
 	(label "CE"
 		(at 120.65 38.1 180)
@@ -2065,6 +2055,16 @@
 			(justify right bottom)
 		)
 		(uuid "3f2b27bb-c34d-4664-b55e-c32b42a4bfbf")
+	)
+	(label "IRQ"
+		(at 146.05 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67018899-c7f6-43a2-8e65-2180627ca493")
 	)
 	(label "SCK"
 		(at 171.45 72.39 0)
