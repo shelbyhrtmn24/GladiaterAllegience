@@ -1,9 +1,11 @@
+#include <Arduino.h>
+
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
 
-#define CE_PIN 9
-#define CSN_PIN 8
+#define CE_PIN GPIO_NUM_2
+#define CSN_PIN GPIO_NUM_3
 
 RF24 radio(CE_PIN, CSN_PIN);
 
